@@ -1,4 +1,4 @@
-const apiURL = "http://jsonplaceholder.typicode.com/todos";
+const apiURL = "http://jsonplaceholder.typicode.com";
 
 async function fetchWrapper(
   endpoint,

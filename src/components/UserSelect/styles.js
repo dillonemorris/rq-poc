@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const StyledSelect = styled.select`
@@ -21,20 +20,4 @@ const StyledLabel = styled.label`
   font-weight: 600;
 `;
 
-// TODO: wire up to API
-export const UserSelect = () => {
-  return (
-    <div>
-      <StyledLabel>Current User</StyledLabel>
-      <StyledSelect>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>6</option>
-        <option>7</option>
-      </StyledSelect>
-    </div>
-  );
-};
+export { StyledSelect, StyledLabel };

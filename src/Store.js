@@ -10,8 +10,8 @@ const UserStore = types
   })
   .actions((self) => {
     return {
-      setCurrentUser(id) {
-        self.user = id;
+      setCurrentUser(user) {
+        self.currentUser = user;
       },
     };
   });
